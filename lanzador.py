@@ -14,6 +14,22 @@ def main1():
         print("Para la T: ", comprimirtexto('M', raiz))
         print("por ejemplo al codificar la palabra M0T0MAM1 obtenemos el siguiente codigo: ", comprimirtexto('M0T0MAM1', raiz))
 
+def main2():
+
+
+
+def main3():
+
+
+
 def main():
-    main1()
+    n=int(input("¿Que ejercicio deseas hacer?: "))
+    if n == 1:
+        main1()
+    elif n == 2:
+        main2()
+    elif n == 3:
+        main3()
+    else:
+        print("No has seleccionado ningun ejercicio valido")
 main()
