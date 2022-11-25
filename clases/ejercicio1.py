@@ -7,15 +7,15 @@ class nodoarbol:
         self.simbolo = simbolo
         self.frecuencia = frecuencia
 
-    def buscar(raiz, clave):
-        pos=None
-        if raiz is not None:
-            if raiz.simbolo == clave:
-                pos = raiz
-                return pos
-            if pos == None:
-                pos = buscar(raiz.izquierda, clave)
-            if pos == None:
-                pos = buscar(raiz.derecha, clave)
-        return pos
+def buscar(raiz, clave):
+    posicion = None
+    if raiz is not None:
+        if raiz.simbolo == clave:
+            posicion = raiz
+            return posicion
+        if posicion == None:
+            posicion = buscar(raiz.izquierda, clave)
+        if posicion == None:
+            posicion = buscar(raiz.derecha, clave)
+    return
     
