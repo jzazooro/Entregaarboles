@@ -20,7 +20,7 @@ def buscar(raiz, clave):
             posicion = buscar(raiz.izquierda, clave)
         if posicion == None:
             posicion = buscar(raiz.derecha, clave)
-    return
+    return posicion
 
 def ordenarobjetos(lista):
     
