@@ -15,11 +15,10 @@ def main1():
         print("por ejemplo al codificar la palabra M0T0MAM1 obtenemos el siguiente codigo: ", comprimirtexto('M0T0MAM1', raiz))
 
 def main2():
-
-
+    print()
 
 def main3():
-
+    print("lo siento, no he sido capaz de resolver este ejercicio")
 
 
 def main():
@@ -32,4 +31,3 @@ def main():
         main3()
     else:
         print("No has seleccionado ningun ejercicio valido")
-main()
